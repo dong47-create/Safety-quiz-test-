@@ -1,0 +1,595 @@
+{
+  "law_base_date": "2026-11-03",
+  "questions": [
+    {
+      "id": "W-001",
+      "targets": ["worker"],
+      "source": "act",
+      "type": "multiple",
+      "question": "산업안전보건법상 근로자는 산업재해가 발생할 급박한 위험이 있는 경우 어떻게 할 수 있는가?",
+      "choices": [
+        {"id": "a", "text": "작업을 중지하고 대피할 수 있다"},
+        {"id": "b", "text": "관리감독자의 허가를 받은 후에만 대피할 수 있다"},
+        {"id": "c", "text": "작업을 계속하면서 사업주에게 서면으로 보고해야 한다"},
+        {"id": "d", "text": "고용노동부장관의 승인을 받아야 대피할 수 있다"}
+      ],
+      "answer": "a",
+      "explanation": "근로자는 산업재해가 발생할 급박한 위험이 있는 경우 작업을 중지하고 대피할 수 있습니다. 누구의 허가나 승인도 필요하지 않습니다.",
+      "reference": "산업안전보건법 제52조 제1항",
+      "difficulty": 1
+    },
+    {
+      "id": "W-002",
+      "targets": ["worker"],
+      "source": "act",
+      "type": "ox",
+      "question": "급박한 위험 때문에 작업을 중지하고 대피한 근로자는 지체 없이 관리감독자 등에게 그 사실을 보고해야 한다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "작업을 중지하고 대피한 근로자는 지체 없이 그 사실을 관리감독자 또는 그 밖에 부서의 장에게 보고해야 합니다.",
+      "reference": "산업안전보건법 제52조 제2항",
+      "difficulty": 1
+    },
+    {
+      "id": "W-003",
+      "targets": ["worker"],
+      "source": "act",
+      "type": "ox",
+      "question": "급박한 위험이 있다고 믿을 만한 합리적인 이유가 있어 작업을 중지하고 대피한 근로자에게, 사업주는 그것을 이유로 해고나 불리한 처우를 할 수 있다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "x",
+      "explanation": "산업재해가 발생할 급박한 위험이 있다고 근로자가 믿을 만한 합리적인 이유가 있을 때에는, 사업주는 작업을 중지하고 대피한 근로자에게 해고나 그 밖의 불리한 처우를 해서는 안 됩니다.",
+      "reference": "산업안전보건법 제52조 제4항",
+      "difficulty": 1
+    },
+    {
+      "id": "W-004",
+      "targets": ["worker"],
+      "source": "act",
+      "type": "ox",
+      "question": "근로자는 사업주나 근로감독관이 실시하는 산업재해 예방에 관한 조치에 따를 의무가 없다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "x",
+      "explanation": "근로자는 법령에서 정하는 산업재해 예방 기준을 지켜야 하며, 사업주 또는 근로감독관 등 관계인이 실시하는 산업재해 예방에 관한 조치에 따라야 합니다.",
+      "reference": "산업안전보건법 제6조",
+      "difficulty": 1
+    },
+    {
+      "id": "W-005",
+      "targets": ["worker"],
+      "source": "rule",
+      "type": "multiple",
+      "question": "일용근로자를 채용할 때 실시하는 안전보건교육 시간은?",
+      "choices": [
+        {"id": "a", "text": "1시간 이상"},
+        {"id": "b", "text": "2시간 이상"},
+        {"id": "c", "text": "4시간 이상"},
+        {"id": "d", "text": "8시간 이상"}
+      ],
+      "answer": "a",
+      "explanation": "일용근로자와 근로계약기간이 1주일 이하인 기간제근로자의 채용 시 교육은 1시간 이상입니다. 그 밖의 근로자는 8시간 이상입니다.",
+      "reference": "산업안전보건법 시행규칙 별표 4",
+      "difficulty": 2
+    },
+    {
+      "id": "W-006",
+      "targets": ["worker"],
+      "source": "rule",
+      "type": "multiple",
+      "question": "사무직에 종사하는 근로자의 정기 안전보건교육 시간은?",
+      "choices": [
+        {"id": "a", "text": "매분기 3시간 이상"},
+        {"id": "b", "text": "매반기 6시간 이상"},
+        {"id": "c", "text": "매반기 12시간 이상"},
+        {"id": "d", "text": "연간 16시간 이상"}
+      ],
+      "answer": "b",
+      "explanation": "사무직 종사 근로자의 정기교육은 매반기 6시간 이상입니다.",
+      "reference": "산업안전보건법 시행규칙 별표 4",
+      "difficulty": 2
+    },
+    {
+      "id": "W-007",
+      "targets": ["worker"],
+      "source": "rule",
+      "type": "multiple",
+      "question": "일용근로자를 제외한 일반 근로자의 작업내용이 바뀌었을 때 실시하는 교육(작업내용 변경 시 교육) 시간은?",
+      "choices": [
+        {"id": "a", "text": "1시간 이상"},
+        {"id": "b", "text": "2시간 이상"},
+        {"id": "c", "text": "6시간 이상"},
+        {"id": "d", "text": "8시간 이상"}
+      ],
+      "answer": "b",
+      "explanation": "작업내용 변경 시 교육은 일용근로자 등은 1시간 이상, 그 밖의 근로자는 2시간 이상입니다.",
+      "reference": "산업안전보건법 시행규칙 별표 4",
+      "difficulty": 2
+    },
+    {
+      "id": "W-008",
+      "targets": ["worker"],
+      "source": "standard",
+      "type": "multiple",
+      "question": "안전난간의 상부 난간대는 바닥면 등으로부터 몇 cm 이상 높이에 설치해야 하는가?",
+      "choices": [
+        {"id": "a", "text": "60cm 이상"},
+        {"id": "b", "text": "75cm 이상"},
+        {"id": "c", "text": "90cm 이상"},
+        {"id": "d", "text": "120cm 이상"}
+      ],
+      "answer": "c",
+      "explanation": "상부 난간대는 바닥면·발판 또는 경사로의 표면으로부터 90cm 이상 지점에 설치해야 합니다.",
+      "reference": "산업안전보건기준에 관한 규칙 제13조 제2호",
+      "difficulty": 1
+    },
+    {
+      "id": "W-009",
+      "targets": ["worker"],
+      "source": "standard",
+      "type": "multiple",
+      "question": "안전난간의 발끝막이판은 바닥면 등으로부터 몇 cm 이상의 높이를 유지해야 하는가?",
+      "choices": [
+        {"id": "a", "text": "5cm 이상"},
+        {"id": "b", "text": "10cm 이상"},
+        {"id": "c", "text": "15cm 이상"},
+        {"id": "d", "text": "20cm 이상"}
+      ],
+      "answer": "b",
+      "explanation": "발끝막이판은 바닥면 등으로부터 10cm 이상의 높이를 유지해야 합니다.",
+      "reference": "산업안전보건기준에 관한 규칙 제13조 제3호",
+      "difficulty": 2
+    },
+    {
+      "id": "W-010",
+      "targets": ["worker"],
+      "source": "standard",
+      "type": "multiple",
+      "question": "높이 또는 깊이 2m 이상의 추락할 위험이 있는 장소에서 작업할 때 지급해야 하는 보호구는?",
+      "choices": [
+        {"id": "a", "text": "보안경"},
+        {"id": "b", "text": "안전대"},
+        {"id": "c", "text": "방열복"},
+        {"id": "d", "text": "보안면"}
+      ],
+      "answer": "b",
+      "explanation": "높이 또는 깊이 2m 이상의 추락할 위험이 있는 장소에서 하는 작업에는 안전대를 지급하고 착용하도록 해야 합니다.",
+      "reference": "산업안전보건기준에 관한 규칙 제32조 제1항 제2호",
+      "difficulty": 1
+    },
+    {
+      "id": "W-011",
+      "targets": ["worker"],
+      "source": "standard",
+      "type": "multiple",
+      "question": "물체가 흩날릴 위험이 있는 작업에서 지급해야 하는 보호구는?",
+      "choices": [
+        {"id": "a", "text": "보안경"},
+        {"id": "b", "text": "안전대"},
+        {"id": "c", "text": "절연용 보호구"},
+        {"id": "d", "text": "방열복"}
+      ],
+      "answer": "a",
+      "explanation": "물체가 흩날릴 위험이 있는 작업에는 보안경을 지급하고 착용하도록 해야 합니다.",
+      "reference": "산업안전보건기준에 관한 규칙 제32조 제1항 제4호",
+      "difficulty": 1
+    },
+    {
+      "id": "W-012",
+      "targets": ["worker"],
+      "source": "standard",
+      "type": "ox",
+      "question": "근로자는 사업주가 지급한 보호구를 사업주의 지시에 따라 착용해야 한다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "보호구를 지급받은 근로자는 사업주의 지시에 따라 그 보호구를 착용해야 합니다.",
+      "reference": "산업안전보건기준에 관한 규칙 제32조 제2항",
+      "difficulty": 1
+    },
+
+    {
+      "id": "S-001",
+      "targets": ["supervisor"],
+      "source": "act",
+      "type": "multiple",
+      "question": "산업안전보건법상 관리감독자에 대한 설명으로 옳은 것은?",
+      "choices": [
+        {"id": "a", "text": "사업장의 생산 관련 업무와 소속 직원을 직접 지휘·감독하는 직위에 있는 사람"},
+        {"id": "b", "text": "고용노동부장관이 지정하는 외부 안전 전문가"},
+        {"id": "c", "text": "근로자 과반수의 투표로 선출된 근로자 대표"},
+        {"id": "d", "text": "안전관리 전문기관에 소속된 기술인력"}
+      ],
+      "answer": "a",
+      "explanation": "사업주는 사업장의 생산과 관련되는 업무와 그 소속 직원을 직접 지휘·감독하는 직위에 있는 사람(관리감독자)에게 산업 안전 및 보건에 관한 업무를 수행하도록 해야 합니다.",
+      "reference": "산업안전보건법 제16조 제1항",
+      "difficulty": 1
+    },
+    {
+      "id": "S-002",
+      "targets": ["supervisor"],
+      "source": "act",
+      "type": "ox",
+      "question": "사업주는 위험성평가를 할 때 해당 작업장의 근로자를 참여시켜야 한다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "사업주는 위험성평가 시 해당 작업장의 근로자를 참여시켜야 합니다.",
+      "reference": "산업안전보건법 제36조 제2항",
+      "difficulty": 1
+    },
+    {
+      "id": "S-003",
+      "targets": ["supervisor"],
+      "source": "act",
+      "type": "multiple",
+      "question": "산업재해가 발생할 급박한 위험이 있을 때 사업주가 해야 할 조치로 옳은 것은?",
+      "choices": [
+        {"id": "a", "text": "작업을 계속하게 하면서 원인을 조사한다"},
+        {"id": "b", "text": "즉시 작업을 중지시키고 근로자를 작업장소에서 대피시킨다"},
+        {"id": "c", "text": "관할 지방고용노동관서의 지시가 있을 때까지 기다린다"},
+        {"id": "d", "text": "산업안전보건위원회를 소집해 작업중지 여부를 의결한다"}
+      ],
+      "answer": "b",
+      "explanation": "사업주는 산업재해가 발생할 급박한 위험이 있을 때에는 즉시 작업을 중지시키고 근로자를 작업장소에서 대피시키는 등 필요한 조치를 해야 합니다.",
+      "reference": "산업안전보건법 제51조",
+      "difficulty": 1
+    },
+    {
+      "id": "S-004",
+      "targets": ["supervisor"],
+      "source": "act",
+      "type": "ox",
+      "question": "급박한 위험으로 작업을 중지하고 대피한 근로자의 보고를 받은 관리감독자는 안전 및 보건에 관하여 필요한 조치를 해야 한다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "근로자의 보고를 받은 관리감독자 등은 안전 및 보건에 관하여 필요한 조치를 해야 합니다.",
+      "reference": "산업안전보건법 제52조 제3항",
+      "difficulty": 1
+    },
+    {
+      "id": "S-005",
+      "targets": ["supervisor"],
+      "source": "decree",
+      "type": "multiple",
+      "question": "다음 중 시행령에서 정한 관리감독자의 업무가 아닌 것은?",
+      "choices": [
+        {"id": "a", "text": "기계·기구 또는 설비의 안전·보건 점검 및 이상 유무의 확인"},
+        {"id": "b", "text": "근로자의 작업복·보호구 및 방호장치의 점검과 착용·사용에 관한 교육·지도"},
+        {"id": "c", "text": "작업장 정리·정돈 및 통로 확보에 대한 확인·감독"},
+        {"id": "d", "text": "안전보건관리규정의 작성 및 변경"}
+      ],
+      "answer": "d",
+      "explanation": "안전보건관리규정의 작성 및 변경은 안전보건관리책임자가 총괄하는 업무입니다(법 제15조). 나머지는 관리감독자의 업무입니다.",
+      "reference": "산업안전보건법 시행령 제15조 제1항",
+      "difficulty": 2
+    },
+    {
+      "id": "S-006",
+      "targets": ["supervisor"],
+      "source": "decree",
+      "type": "ox",
+      "question": "위험성평가 시 유해·위험요인을 파악하는 데 참여하는 것은 관리감독자의 업무에 포함된다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "관리감독자의 업무에는 위험성평가에 관한 업무로서 유해·위험요인의 파악에 대한 참여와 개선조치 시행에 대한 참여가 포함됩니다.",
+      "reference": "산업안전보건법 시행령 제15조 제1항 제6호",
+      "difficulty": 2
+    },
+    {
+      "id": "S-007",
+      "targets": ["supervisor"],
+      "source": "rule",
+      "type": "multiple",
+      "question": "관리감독자의 정기 안전보건교육 시간은?",
+      "choices": [
+        {"id": "a", "text": "매반기 6시간 이상"},
+        {"id": "b", "text": "연간 8시간 이상"},
+        {"id": "c", "text": "연간 16시간 이상"},
+        {"id": "d", "text": "연간 24시간 이상"}
+      ],
+      "answer": "c",
+      "explanation": "관리감독자의 정기교육은 연간 16시간 이상입니다.",
+      "reference": "산업안전보건법 시행규칙 별표 4",
+      "difficulty": 1
+    },
+    {
+      "id": "S-008",
+      "targets": ["supervisor"],
+      "source": "rule",
+      "type": "multiple",
+      "question": "위험성평가 결과와 조치사항을 기록한 자료는 몇 년간 보존해야 하는가?",
+      "choices": [
+        {"id": "a", "text": "1년"},
+        {"id": "b", "text": "2년"},
+        {"id": "c", "text": "3년"},
+        {"id": "d", "text": "5년"}
+      ],
+      "answer": "c",
+      "explanation": "사업주는 위험성평가 결과와 조치사항을 기록한 자료를 3년간 보존해야 합니다.",
+      "reference": "산업안전보건법 시행규칙 제37조 제2항",
+      "difficulty": 2
+    },
+    {
+      "id": "S-009",
+      "targets": ["supervisor"],
+      "source": "rule",
+      "type": "multiple",
+      "question": "일용근로자 등을 제외한 일반 근로자를 채용할 때 실시하는 안전보건교육 시간은?",
+      "choices": [
+        {"id": "a", "text": "1시간 이상"},
+        {"id": "b", "text": "2시간 이상"},
+        {"id": "c", "text": "4시간 이상"},
+        {"id": "d", "text": "8시간 이상"}
+      ],
+      "answer": "d",
+      "explanation": "채용 시 교육은 일용근로자와 근로계약기간 1주일 이하인 기간제근로자는 1시간 이상, 그 밖의 근로자는 8시간 이상입니다.",
+      "reference": "산업안전보건법 시행규칙 별표 4",
+      "difficulty": 1
+    },
+    {
+      "id": "S-010",
+      "targets": ["supervisor"],
+      "source": "standard",
+      "type": "ox",
+      "question": "사업주는 규칙 별표 3에서 정한 작업을 할 때 관리감독자로 하여금 작업 시작 전에 필요한 사항을 점검하도록 해야 한다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "별표 3의 작업(예: 프레스, 크레인, 지게차 사용 작업 등)을 하는 경우 관리감독자가 작업 시작 전 점검사항을 점검하도록 해야 합니다.",
+      "reference": "산업안전보건기준에 관한 규칙 제35조 제2항, 별표 3",
+      "difficulty": 2
+    },
+    {
+      "id": "S-011",
+      "targets": ["supervisor"],
+      "source": "standard",
+      "type": "multiple",
+      "question": "안전난간은 가장 취약한 지점에서 가장 취약한 방향으로 작용하는 몇 kg 이상의 하중에 견딜 수 있어야 하는가?",
+      "choices": [
+        {"id": "a", "text": "50kg 이상"},
+        {"id": "b", "text": "80kg 이상"},
+        {"id": "c", "text": "100kg 이상"},
+        {"id": "d", "text": "150kg 이상"}
+      ],
+      "answer": "c",
+      "explanation": "안전난간은 구조적으로 가장 취약한 지점에서 가장 취약한 방향으로 작용하는 100kg 이상의 하중에 견딜 수 있는 튼튼한 구조여야 합니다.",
+      "reference": "산업안전보건기준에 관한 규칙 제13조 제7호",
+      "difficulty": 2
+    },
+    {
+      "id": "S-012",
+      "targets": ["supervisor"],
+      "source": "standard",
+      "type": "multiple",
+      "question": "감전의 위험이 있는 작업에서 지급해야 하는 보호구는?",
+      "choices": [
+        {"id": "a", "text": "보안면"},
+        {"id": "b", "text": "방열복"},
+        {"id": "c", "text": "절연용 보호구"},
+        {"id": "d", "text": "보안경"}
+      ],
+      "answer": "c",
+      "explanation": "감전의 위험이 있는 작업에는 절연용 보호구를 지급하고 착용하도록 해야 합니다.",
+      "reference": "산업안전보건기준에 관한 규칙 제32조 제1항 제6호",
+      "difficulty": 1
+    },
+
+    {
+      "id": "M-001",
+      "targets": ["manager"],
+      "source": "act",
+      "type": "multiple",
+      "question": "산업안전보건법상 안전보건관리책임자는 어떤 사람인가?",
+      "choices": [
+        {"id": "a", "text": "사업장을 실질적으로 총괄하여 관리하는 사람"},
+        {"id": "b", "text": "안전관리자 자격을 가진 외부 위탁 기관의 담당자"},
+        {"id": "c", "text": "근로자 대표가 지명하는 근로자"},
+        {"id": "d", "text": "생산 현장의 반장 또는 직장"}
+      ],
+      "answer": "a",
+      "explanation": "사업주는 사업장을 실질적으로 총괄하여 관리하는 사람에게 안전보건관리책임자로서 산업재해 예방 업무 등을 총괄하여 관리하도록 해야 합니다.",
+      "reference": "산업안전보건법 제15조 제1항",
+      "difficulty": 1
+    },
+    {
+      "id": "M-002",
+      "targets": ["manager"],
+      "source": "act",
+      "type": "multiple",
+      "question": "다음 중 안전보건관리책임자가 총괄하여 관리하는 업무가 아닌 것은?",
+      "choices": [
+        {"id": "a", "text": "사업장의 산업재해 예방계획의 수립"},
+        {"id": "b", "text": "산업재해의 원인 조사 및 재발 방지대책 수립"},
+        {"id": "c", "text": "안전장치 및 보호구 구입 시 적격품 여부 확인"},
+        {"id": "d", "text": "다른 사업장에 대한 근로감독 실시"}
+      ],
+      "answer": "d",
+      "explanation": "근로감독은 고용노동부(근로감독관)의 권한입니다. 나머지는 안전보건관리책임자가 총괄 관리하는 업무입니다.",
+      "reference": "산업안전보건법 제15조 제1항",
+      "difficulty": 1
+    },
+    {
+      "id": "M-003",
+      "targets": ["manager"],
+      "source": "act",
+      "type": "ox",
+      "question": "안전보건관리책임자는 안전관리자와 보건관리자를 지휘·감독한다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "안전보건관리책임자는 안전관리자와 보건관리자를 지휘·감독합니다.",
+      "reference": "산업안전보건법 제15조 제2항",
+      "difficulty": 1
+    },
+    {
+      "id": "M-004",
+      "targets": ["manager"],
+      "source": "act",
+      "type": "ox",
+      "question": "사업주는 산업재해가 발생했을 때 그 발생 사실을 은폐해서는 안 된다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "사업주는 산업재해가 발생하였을 때에는 그 발생 사실을 은폐하거나 근로자 등이 은폐하도록 교사 또는 공모해서는 안 됩니다.",
+      "reference": "산업안전보건법 제57조 제1항",
+      "difficulty": 1
+    },
+    {
+      "id": "M-005",
+      "targets": ["manager"],
+      "source": "act",
+      "type": "multiple",
+      "question": "산업안전보건위원회의 구성으로 옳은 것은?",
+      "choices": [
+        {"id": "a", "text": "사용자위원만으로 구성한다"},
+        {"id": "b", "text": "근로자위원과 사용자위원을 같은 수로 구성한다"},
+        {"id": "c", "text": "근로자위원을 사용자위원의 2배로 구성한다"},
+        {"id": "d", "text": "고용노동부 공무원을 위원장으로 둔다"}
+      ],
+      "answer": "b",
+      "explanation": "산업안전보건위원회는 근로자위원과 사용자위원이 같은 수로 구성됩니다.",
+      "reference": "산업안전보건법 제24조 제1항",
+      "difficulty": 1
+    },
+    {
+      "id": "M-006",
+      "targets": ["manager"],
+      "source": "decree",
+      "type": "multiple",
+      "question": "산업안전보건위원회의 정기회의는 얼마마다 개최하는가?",
+      "choices": [
+        {"id": "a", "text": "매월"},
+        {"id": "b", "text": "분기마다"},
+        {"id": "c", "text": "반기마다"},
+        {"id": "d", "text": "매년"}
+      ],
+      "answer": "b",
+      "explanation": "산업안전보건위원회의 정기회의는 분기마다 위원장이 소집합니다. 필요한 경우 임시회의를 열 수 있습니다.",
+      "reference": "산업안전보건법 시행령 제37조 제1항",
+      "difficulty": 1
+    },
+    {
+      "id": "M-007",
+      "targets": ["manager"],
+      "source": "decree",
+      "type": "multiple",
+      "question": "시행령 별표 9에서 업종별로 따로 정하지 않은 '그 밖의 업종'은 상시근로자 몇 명 이상일 때 산업안전보건위원회를 설치해야 하는가?",
+      "choices": [
+        {"id": "a", "text": "30명 이상"},
+        {"id": "b", "text": "50명 이상"},
+        {"id": "c", "text": "100명 이상"},
+        {"id": "d", "text": "300명 이상"}
+      ],
+      "answer": "c",
+      "explanation": "산업안전보건위원회 설치 대상은 업종별로 다르며, 별표 9에서 따로 정하지 않은 그 밖의 업종은 상시근로자 100명 이상인 사업장입니다.",
+      "reference": "산업안전보건법 시행령 제34조, 별표 9",
+      "difficulty": 3
+    },
+    {
+      "id": "M-008",
+      "targets": ["manager"],
+      "source": "decree",
+      "type": "ox",
+      "question": "산업안전보건위원회의 위원장은 위원 중에서 호선(서로 뽑음)한다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "산업안전보건위원회의 위원장은 위원 중에서 호선합니다. 근로자위원과 사용자위원 중 각 1명을 공동위원장으로 선출할 수도 있습니다.",
+      "reference": "산업안전보건법 시행령 제36조",
+      "difficulty": 2
+    },
+    {
+      "id": "M-009",
+      "targets": ["manager"],
+      "source": "rule",
+      "type": "multiple",
+      "question": "다음 중 '중대재해'에 해당하지 않는 것은?",
+      "choices": [
+        {"id": "a", "text": "사망자가 1명 이상 발생한 재해"},
+        {"id": "b", "text": "3개월 이상의 요양이 필요한 부상자가 동시에 2명 이상 발생한 재해"},
+        {"id": "c", "text": "부상자 또는 직업성 질병자가 동시에 10명 이상 발생한 재해"},
+        {"id": "d", "text": "1개월의 요양이 필요한 부상자가 1명 발생한 재해"}
+      ],
+      "answer": "d",
+      "explanation": "중대재해는 ① 사망자 1명 이상, ② 3개월 이상 요양이 필요한 부상자 동시 2명 이상, ③ 부상자 또는 직업성 질병자 동시 10명 이상 발생한 재해입니다.",
+      "reference": "산업안전보건법 시행규칙 제3조",
+      "difficulty": 2
+    },
+    {
+      "id": "M-010",
+      "targets": ["manager"],
+      "source": "rule",
+      "type": "multiple",
+      "question": "사망자 또는 3일 이상의 휴업이 필요한 부상·질병자가 발생한 경우, 산업재해조사표는 재해 발생일부터 언제까지 제출해야 하는가?",
+      "choices": [
+        {"id": "a", "text": "7일 이내"},
+        {"id": "b", "text": "15일 이내"},
+        {"id": "c", "text": "1개월 이내"},
+        {"id": "d", "text": "3개월 이내"}
+      ],
+      "answer": "c",
+      "explanation": "산업재해가 발생한 날부터 1개월 이내에 산업재해조사표를 작성하여 관할 지방고용노동관서의 장에게 제출해야 합니다.",
+      "reference": "산업안전보건법 시행규칙 제73조 제1항",
+      "difficulty": 2
+    },
+    {
+      "id": "M-011",
+      "targets": ["manager"],
+      "source": "rule",
+      "type": "multiple",
+      "question": "안전보건관리책임자의 신규 직무교육 시간은?",
+      "choices": [
+        {"id": "a", "text": "2시간 이상"},
+        {"id": "b", "text": "6시간 이상"},
+        {"id": "c", "text": "16시간 이상"},
+        {"id": "d", "text": "34시간 이상"}
+      ],
+      "answer": "b",
+      "explanation": "안전보건관리책임자의 직무교육은 신규교육 6시간 이상, 보수교육 6시간 이상입니다.",
+      "reference": "산업안전보건법 시행규칙 별표 4",
+      "difficulty": 2
+    },
+    {
+      "id": "M-012",
+      "targets": ["manager"],
+      "source": "standard",
+      "type": "ox",
+      "question": "사업주는 보호구를 작업하는 근로자 수 이상으로 지급하고 착용하도록 해야 한다.",
+      "choices": [
+        {"id": "o", "text": "O"},
+        {"id": "x", "text": "X"}
+      ],
+      "answer": "o",
+      "explanation": "사업주는 해당 작업 조건에 맞는 보호구를 작업하는 근로자 수 이상으로 지급하고 착용하도록 해야 합니다.",
+      "reference": "산업안전보건기준에 관한 규칙 제32조 제1항",
+      "difficulty": 1
+    }
+  ]
+}
