@@ -1,0 +1,45 @@
+# 화면 테마: 남색(주 색상) + 노란색(강조색), 한글 가독성이 좋은 Noto Sans KR.
+# 라이트/다크를 따로 정의해 두면 사용자 시스템 설정에 따라 자동으로 바뀐다.
+
+[server]
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# 상단의 Deploy 버튼 등 개발자 메뉴 숨김
+toolbarMode = "minimal"
+
+[theme]
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap, sans-serif"
+headingFont = "Noto Sans KR, sans-serif"
+headingFontWeights = [800, 700, 700, 700, 700, 700]
+headingFontSizes = ["2rem", "1.5rem", "1.25rem", "1.125rem", "1rem", "1rem"]
+baseFontSize = 16
+baseRadius = "0.75rem"
+buttonRadius = "0.75rem"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#1F3A93"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F4F9"
+textColor = "#1A2233"
+borderColor = "#D5DAE6"
+linkColor = "#1F3A93"
+
+[theme.light.sidebar]
+backgroundColor = "#F2F4F9"
+
+[theme.dark]
+# 어두운 배경에서도 보이고(배경 대비 약 4:1), 버튼의 흰 글자도 읽히는(약 4.6:1) 중간 밝기 남색
+primaryColor = "#4A6FDC"
+backgroundColor = "#0F1525"
+secondaryBackgroundColor = "#1A2236"
+textColor = "#E6EAF2"
+borderColor = "#2E3954"
+linkColor = "#8EA6F2"
+
+[theme.dark.sidebar]
+backgroundColor = "#141B2E"
